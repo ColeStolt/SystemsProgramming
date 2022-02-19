@@ -1,8 +1,5 @@
 #!/usr/bin/gawk
 
-# Cole Stoltz
-# cms0644
-
 BEGIN {print "Average Student Grades"}
 BEGIN {print "Name              Average"}
 
