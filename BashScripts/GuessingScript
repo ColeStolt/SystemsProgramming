@@ -1,0 +1,14 @@
+#! /bin/bash
+
+let  randNumb=1+$RANDOM%10 
+
+read -p "Enter a number between 1 and 10: " guess
+
+while [ $guess -ne $randNumb ]
+do
+	echo "Sorry, you are not correct. Try again!"
+	read -p "Enter a number between 1 and 10: " guess
+
+done
+
+echo "Congratulations, the number is $randNumb."
