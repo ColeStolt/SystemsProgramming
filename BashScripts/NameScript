@@ -1,0 +1,8 @@
+# /bin/bash
+
+if [ -z "$1" ]
+then
+	echo "Have a great day!"
+else
+	echo "Good day, $1! Nice to meet you!"
+fi 
