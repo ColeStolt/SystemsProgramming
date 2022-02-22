@@ -1,0 +1,5 @@
+#! /bin/bash
+
+read -p 'Enter a linux command to execute: '  command
+echo Command to be executed: $command
+$command
